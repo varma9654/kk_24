@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - KK Educational and Rural Development Society</title>
+    <meta name="description" content="Get in touch with KK Educational and Rural Development Society. Contact us for course enrollment, career guidance, and training program information.">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img src="Images/2kk.png" alt="KK Educational and Rural Development Society" class="nav__logo-img">
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">HOME</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">ABOUT</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="courses.html" class="nav__link">COURSES</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="skills.html" class="nav__link">SKILL DEVELOPMENT COURSE</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link active-link">CONTACT</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <a href="contact.html" class="btn btn--primary nav__cta">Join Now</a>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Page Header -->
+        <section class="page-header section">
+            <div class="container">
+                <div class="page-header__content">
+                    <h1 class="page-header__title">Contact <span class="highlight">For Any Query</span></h1>
+                    <p class="page-header__subtitle">Get in touch with us for course enrollment and career guidance</p>
+                    <nav class="breadcrumb">
+                        <a href="index.html" class="breadcrumb__link">Home</a>
+                        <span class="breadcrumb__separator">/</span>
+                        <span class="breadcrumb__current">Contact</span>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section">
+            <div class="container">
+                <div class="contact__header">
+                    <h2 class="section__title">Get In <span class="highlight">Touch</span></h2>
+                    <p class="section__description">Have questions about our training programs, services, or enrollment process? We'd love to hear from you! Contact us and we'll get back to you as soon as possible.</p>
+                </div>
+                
+                <div class="contact__container grid">
+                    <div class="contact__info">
+                        <h3>Contact Information</h3>
+                        
+                        <div class="contact__details">
+                            <div class="contact__detail">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h4>Head Office</h4>
+                                    <p>34-1/16, Opp, District Library</p>
+                                    <p>Court Centre, Ongole</p>
+                                    <p>Andhra Pradesh 523001</p>
+                                    <a href="https://maps.google.com/maps?q=34-1/16+Opp+District+Library+Court+Centre+Ongole" target="_blank" class="map-link">View larger map</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact__detail">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h4>Mobile</h4>
+                                    <a href="tel:+919963647799" class="contact-link">+91 9963647799</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact__detail">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <a href="mailto:kkcomputersiso@gmail.com" class="contact-link">kkcomputersiso@gmail.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact__detail">
+                                <i class="fab fa-whatsapp"></i>
+                                <div>
+                                    <h4>WhatsApp</h4>
+                                    <a href="https://wa.me/919963647799" class="contact-link whatsapp-link">Chat with us on WhatsApp</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="office-hours">
+                            <h4><i class="fas fa-clock"></i> Office Hours</h4>
+                            <div class="hours-grid">
+                                <div class="hours-item">
+                                    <span class="day">Monday - Friday</span>
+                                    <span class="time">9:00 AM - 6:00 PM</span>
+                                </div>
+                                <div class="hours-item">
+                                    <span class="day">Saturday</span>
+                                    <span class="time">9:00 AM - 4:00 PM</span>
+                                </div>
+                                <div class="hours-item">
+                                    <span class="day">Sunday</span>
+                                    <span class="time">Closed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact__form" id="contact-form">
+                        <div class="form-progress">
+                            <div class="form-progress__bar" id="form-progress-bar"></div>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="name" class="form__label">Your Name *</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" class="form__input" required>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="email" class="form__label">Your Email *</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email address" class="form__input" required>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="subject" class="form__label">Subject *</label>
+                            <select id="subject" name="subject" class="form__input" required>
+                                <option value="">Select Subject</option>
+                                <option value="course-inquiry">Course Inquiry</option>
+                                <option value="enrollment">Enrollment Process</option>
+                                <option value="fees-payment">Fees & Payment</option>
+                                <option value="placement">Placement Assistance</option>
+                                <option value="technical-support">Technical Support</option>
+                                <option value="general-inquiry">General Inquiry</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="course-interest" class="form__label">Course Interest</label>
+                            <select id="course-interest" name="course-interest" class="form__input">
+                                <option value="">Select Course (Optional)</option>
+                                <option value="ms-office">MS Office Suite</option>
+                                <option value="tally">Tally ERP 9</option>
+                                <option value="dtp">Desktop Publishing</option>
+                                <option value="photoshop">Adobe Photoshop</option>
+                                <option value="programming">Programming Courses</option>
+                                <option value="skill-development">Skill Development Course</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="message" class="form__label">Message *</label>
+                            <textarea id="message" name="message" placeholder="Enter your message here..." class="form__input form__textarea" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary btn--full">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-section section">
+            <div class="container">
+                <h2 class="section__title">Find <span class="highlight">Our Location</span></h2>
+                <div class="map__container">
+                    <div class="map__wrapper">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3854.123456789!2d80.04567890123!3d15.50567890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sDistrict%20Library%20Court%20Centre%20Ongole!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="400" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            class="map__iframe">
+                        </iframe>
+                    </div>
+                    <div class="map__info">
+                        <h3>Our Head Office</h3>
+                        <p><strong>Address:</strong> 34-1/16, Opposite District Library, Court Centre, Ongole, Andhra Pradesh 523001</p>
+                        <p><strong>Landmark:</strong> Opposite District Library</p>
+                        <p><strong>Phone:</strong> <a href="tel:+919963647799">+91 9963647799</a></p>
+                        <div class="map__actions">
+                            <a href="https://maps.google.com/maps?q=34-1/16+Opp+District+Library+Court+Centre+Ongole" target="_blank" class="btn btn--secondary">
+                                <i class="fas fa-map-marker-alt"></i> Get Directions
+                            </a>
+                            <a href="tel:+919963647799" class="btn btn--primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Training Centers -->
+        <section class="training-centers section">
+            <div class="container">
+                <h2 class="section__title">Our <span class="highlight">Training Centers</span></h2>
+                <div class="centers__grid">
+                    <div class="center__info-card">
+                        <h3>Ongole Head Office</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> 34-1/16, Opp District Library, Court Centre, Ongole</p>
+                        <p><i class="fas fa-phone"></i> +91 9963647799</p>
+                        <div class="center__features">
+                            <span class="feature-tag">Head Office</span>
+                            <span class="feature-tag">All Courses</span>
+                            <span class="feature-tag">Placement Cell</span>
+                        </div>
+                    </div>
+                    
+                    <div class="center__info-card">
+                        <h3>Guntur Center</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Guntur, Andhra Pradesh</p>
+                        <p><i class="fas fa-phone"></i> +91 9963647799</p>
+                        <div class="center__features">
+                            <span class="feature-tag">IT Training</span>
+                            <span class="feature-tag">Professional Courses</span>
+                        </div>
+                    </div>
+                    
+                    <div class="center__info-card">
+                        <h3>Darsi Center</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Darsi, Andhra Pradesh</p>
+                        <p><i class="fas fa-phone"></i> +91 9963647799</p>
+                        <div class="center__features">
+                            <span class="feature-tag">Rural Development</span>
+                            <span class="feature-tag">Skill Training</span>
+                        </div>
+                    </div>
+                    
+                    <div class="center__info-card">
+                        <h3>Samarlakota Center</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Samarlakota, Andhra Pradesh</p>
+                        <p><i class="fas fa-phone"></i> +91 9963647799</p>
+                        <div class="center__features">
+                            <span class="feature-tag">Technical Training</span>
+                            <span class="feature-tag">Certification</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq section">
+            <div class="container">
+                <h2 class="section__title">Frequently Asked <span class="highlight">Questions</span></h2>
+                <div class="faq__container">
+                    <div class="faq__item">
+                        <div class="faq__question">
+                            <h3>What are the admission requirements?</h3>
+                            <i class="fas fa-plus faq__icon"></i>
+                        </div>
+                        <div class="faq__answer">
+                            <p>Basic computer literacy and 10th standard education. For specific courses, detailed requirements are provided during counseling.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <div class="faq__question">
+                            <h3>Do you provide placement assistance?</h3>
+                            <i class="fas fa-plus faq__icon"></i>
+                        </div>
+                        <div class="faq__answer">
+                            <p>Yes, we provide 100% placement assistance with career guidance, interview preparation, and job placement support for all our graduates.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <div class="faq__question">
+                            <h3>Are your courses government certified?</h3>
+                            <i class="fas fa-plus faq__icon"></i>
+                        </div>
+                        <div class="faq__answer">
+                            <p>Yes, all our courses are certified by NSDC, PMKVY, DDU-GKY, and other government bodies, ensuring industry recognition.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <div class="faq__question">
+                            <h3>What is the course fee structure?</h3>
+                            <i class="fas fa-plus faq__icon"></i>
+                        </div>
+                        <div class="faq__answer">
+                            <p>Course fees start from ₹4,500 for 45-day programs. Many courses are available free under government schemes. Contact us for detailed fee structure.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content grid">
+                <div class="footer__section">
+                    <div class="footer__logo">
+                        <img src="Images/kk.png" alt="KK Computers Logo" class="footer__logo-img">
+                        <h3>KK Educational and Rural Development Society</h3>
+                    </div>
+                    <p class="footer__description">Empowering youth through IT education and skill development. Government certified training programs for digital literacy and career advancement.</p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="footer__social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="footer__social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="footer__social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="https://wa.me/919963647799" class="footer__social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Quick Links</h4>
+                    <ul class="footer__links">
+                        <li><a href="index.html" class="footer__link">Home</a></li>
+                        <li><a href="about.html" class="footer__link">About Us</a></li>
+                        <li><a href="courses.html" class="footer__link">Courses</a></li>
+                        <li><a href="skills.html" class="footer__link">Skill Development</a></li>
+                        <li><a href="contact.html" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Popular Courses</h4>
+                    <ul class="footer__links">
+                        <li><a href="courses.html" class="footer__link">MS Office Suite</a></li>
+                        <li><a href="courses.html" class="footer__link">Tally ERP 9</a></li>
+                        <li><a href="courses.html" class="footer__link">Desktop Publishing</a></li>
+                        <li><a href="courses.html" class="footer__link">Adobe Photoshop</a></li>
+                        <li><a href="skills.html" class="footer__link">Programming Courses</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Contact Info</h4>
+                    <ul class="footer__links">
+                        <li class="footer__link"><i class="fas fa-phone"></i> +91 9963647799</li>
+                        <li class="footer__link"><i class="fas fa-envelope"></i> kkcomputersiso@gmail.com</li>
+                        <li class="footer__link"><i class="fas fa-map-marker-alt"></i> 34-1/16, Opposite District Library, Court Centre, Ongole, Andhra Pradesh</li>
+                    </ul>
+                    
+                    <div class="footer__certifications">
+                        <h5>Certified By:</h5>
+                        <div class="footer__cert-logos">
+                            <img src="Images/nsdc.png" alt="NSDC" class="footer__cert-logo">
+                            <img src="Images/pmkvy.png" alt="PMKVY" class="footer__cert-logo">
+                            <img src="Images/ddugky.png" alt="DDU-GKY" class="footer__cert-logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2024 KK Educational and Rural Development Society. All rights reserved.</p>
+                <p class="footer__tech">Empowering Rural India Through Education & Skill Development</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/919963647799" class="floating-whatsapp" target="_blank" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>
